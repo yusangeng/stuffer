@@ -9,7 +9,7 @@ chai.should()
 describe('stuff', _ => {
   describe('@stuff', _ => {
     class Foo {
-    @stuff(v.isString(), v.isNumber())
+      @stuff(v.isString(), v.isNumber())
       bar (str, num) {
         console.log(`Foo.bar: str = ${str}, num=${num}.`)
       }
